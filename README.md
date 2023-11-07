@@ -3,6 +3,7 @@ GeoSorter: Organize your photos effortlessly! GeoSorter is a Python project that
 
 # Configuration File
 This section explains the key configuration variables used in your project. These variables are typically stored in a separate file, such as config.py, to keep sensitive information and settings separate from your code.
+```
 import os
 from os import getenv
 
@@ -13,7 +14,7 @@ IMAGE_FOLDER = os.path.expanduser("~\\Pictures")
 IMAGE_TYPE = '.jpg'
 DATA_FOLDER = os.path.join("data", "output.json")
 TIME_THRESHOLD_MINUTES = 30
-
+```
 Variable Descriptions:
 
     GOOGLE_MAPS_API_KEY: Your Google Maps API key, fetched from the environment variable "MAPS_API_KEY." This key is used to access location data for geocoding.
